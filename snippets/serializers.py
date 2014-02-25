@@ -6,7 +6,7 @@ class SnippetSerializer(serializers.Serializer):
     pk = serializers.Field()
     title = serializers.CharField(required=True, max_length=100)
     code = serializers.BooleanField(required=False)
-    language = serializers.ChoiceField(choices=LANUAGE_CHOICES, default='python')
+    language = serializers.ChoiceField(choices=LANGUAGE_CHOICES, default='python')
     style = serializers.ChoiceField(choices=STYLE_CHOCIES, default='friendly')
 
     def restore_object(self, attrs, instance=None):
