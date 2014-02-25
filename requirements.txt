@@ -1,5 +1,7 @@
 Django==1.6.2
 Markdown==2.4
+Pygments==1.6
+South==0.8.4
 argparse==1.2.1
 distribute==0.6.34
 dj-database-url==0.2.2
