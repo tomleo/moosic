@@ -5,7 +5,8 @@ from snippets.models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES
 class SnippetSerializer(serializers.Serializer):
     pk = serializers.Field()
     title = serializers.CharField(required=True, max_length=100)
-    code = serializers.BooleanField(required=False)
+    code = serializers.CharField(widget=widgets.Textarea, max_length=100000)
+    linenos = serializers.BooleanField(required=False)
     language = serializers.ChoiceField(choices=LANGUAGE_CHOICES, default='python')
     style = serializers.ChoiceField(choices=STYLE_CHOICES, default='friendly')
 
@@ -13,7 +14,10 @@ class SnippetSerializer(serializers.Serializer):
         if instance:
             instance.title = attrs.get('title', instance.title)
             instance.code = attrs.get('code', instance.code)
+            instance.linenos = attrs.get('linenos', instance.linenos)
             instance.language = attrs.get('lanuage', instance.language)
             instance.style = attrs.get('style', instance.style)
             return instance
+
         return Snippet(**attrs)
+
