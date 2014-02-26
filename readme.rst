@@ -28,7 +28,11 @@ for data.
 
 The front end is HTML5/CSS/JS.
 - google polymer
-- (maybe backbone.js)
+- backbone.js
 - (find test framework)
 - npm, grunt, bower, yeoman, jshint
-- (jquery or prototype)
+- (jquery or underscorejs) http://underscorejs.org/
+- RequireJS
+- Crossroads.js http://millermedeiros.github.io/crossroads.js/
+- Hasher https://github.com/millermedeiros/hasher/
+- Jasmine http://jasmine.github.io/2.0/introduction.html
