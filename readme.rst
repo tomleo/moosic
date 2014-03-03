@@ -19,20 +19,22 @@ The Stack
 
 The backend is Django with Django Rest Framework, and is responsible to persisting and searching
 for data.
-- django 1.6
-- django_rest
-- south
-- postgresql
-- (maybe elasticsearch?)
-- (nose)
+
+ - django 1.6
+ - django_rest
+ - south
+ - postgresql
+ - (maybe elasticsearch?)
+ - (nose)
 
 The front end is HTML5/CSS/JS.
-- google polymer
-- backbone.js
-- (find test framework)
-- npm, grunt, bower, yeoman, jshint
-- (jquery or underscorejs) http://underscorejs.org/
-- RequireJS
-- Crossroads.js http://millermedeiros.github.io/crossroads.js/
-- Hasher https://github.com/millermedeiros/hasher/
-- Jasmine http://jasmine.github.io/2.0/introduction.html
+
+ - google polymer
+ - backbone.js
+ - (find test framework)
+ - npm, grunt, bower, yeoman, jshint
+ - (jquery or underscorejs) http://underscorejs.org/
+ - RequireJS
+ - Crossroads.js http://millermedeiros.github.io/crossroads.js/
+ - Hasher https://github.com/millermedeiros/hasher/
+ - Jasmine http://jasmine.github.io/2.0/introduction.html
