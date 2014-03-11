@@ -24,11 +24,22 @@ for data.
 - south
 - postgresql
 - (maybe elasticsearch?)
-- (nose)
+- (nose? pytest?)
 
 The front end is HTML5/CSS/JS.
-- google polymer
-- (maybe backbone.js)
+- backbone.js
 - (find test framework)
 - npm, grunt, bower, yeoman, jshint
 - (jquery or prototype)
+- (react.js)?
+
+Resources
+=========
+
+Deployment
+----------
+
+ - https://uwsgi.readthedocs.org/en/latest/Configuration.html
+ - http://uwsgi.readthedocs.org/en/latest/tutorials/Django_and_nginx.html
+ - http://bartek.im/blog/2012/07/08/simplicity-nginx-uwsgi-deployment.html
+
