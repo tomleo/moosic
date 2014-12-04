@@ -37,3 +37,14 @@ The front end is HTML5/CSS/JS.
  - Crossroads.js http://millermedeiros.github.io/crossroads.js/
  - Hasher https://github.com/millermedeiros/hasher/
  - Jasmine http://jasmine.github.io/2.0/introduction.html
+
+Resources
+=========
+
+Deployment
+----------
+
+ - https://uwsgi.readthedocs.org/en/latest/Configuration.html
+ - http://uwsgi.readthedocs.org/en/latest/tutorials/Django_and_nginx.html
+ - http://bartek.im/blog/2012/07/08/simplicity-nginx-uwsgi-deployment.html
+
