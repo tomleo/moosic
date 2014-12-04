@@ -49,7 +49,7 @@ WSGI_APPLICATION = 'moosic.wsgi.application'
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 DATABASES={}
 DATABASES['default'] = dj_database_url.config(
-    default=os.environ['DATABASE_URL']
+        default='postgres://postgres:thomas@localhost:5432/moosic'
 )
 
 # Internationalization

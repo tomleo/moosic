@@ -29,7 +29,6 @@ for data.
 
 The front end is HTML5/CSS/JS.
 
- - google polymer
  - backbone.js
  - (find test framework)
  - npm, grunt, bower, yeoman, jshint
